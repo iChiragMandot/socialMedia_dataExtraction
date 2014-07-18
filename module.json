@@ -1,0 +1,20 @@
+{
+  "name":"social_media",
+  "description":"To extract relevant data from social media like Twitter, Facebook, Google+ and the likes ",
+  "installation":{
+    "pip":{
+      "requests":"",
+      "twitter":"",
+      "facebook-sdk":"",
+      "google-api-python-client":""
+      }
+    },
+    "dependencies":{
+     "base_module" : "git@github.com:aunalytics/base_module.git" 
+     },   
+   "environment":{
+    "PYTHONPATH":"./Facebook/lib/",
+    "PYTHONPATH":"./Twitter/lib/",
+    "PYTHONPATH":"./GooglePlus/lib"
+    }
+}
